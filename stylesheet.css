@@ -1,0 +1,42 @@
+body {
+    background-color: #ffffff;
+}
+
+li { /* 箇条書きの黒丸削除 */
+  list-style: none;
+}
+
+.header {
+    background-color: #313131;
+    height: 44px;
+}
+
+.header-home {
+    float: left;
+    padding: 14px 10px 60px 60px;
+}
+
+.header-list {
+    color: #ffffff;
+}
+
+.header-list li {
+    float: left;
+    padding: 12px 20px;
+}
+
+.header-logo {
+    color: #ff0000;
+}
+
+.content {
+    height: 600px;
+    background-color: 
+    color: #000000;   
+}
+
+
+.footer {
+    background-color: #f2f2f2;
+    color: #000000;
+}
