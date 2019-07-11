@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: #ffffff;
 }
 
@@ -6,9 +7,19 @@ li { /* 箇条書きの黒丸削除 */
   list-style: none;
 }
 
+h2 {
+    padding:   0px;
+    margin:    0px;
+    font-size:  30px;     
+    color:    #000000;
+    text-align: center;
+}
+
+/* header */
 .header {
     background-color: #313131;
     height: 44px;
+    text-align:center;
 }
 
 .header-home {
@@ -25,16 +36,34 @@ li { /* 箇条書きの黒丸削除 */
     padding: 12px 20px;
 }
 
-.header-logo {
-    color: #ff0000;
+
+.header-list a {
+    color: #ffffff;    
+     text-decoration:none;
 }
 
+/* main */
 .content {
     height: 600px;
-    background-color: 
+    background-color: white;
     color: #000000;   
 }
 
+.content-item {
+    height: 400px;
+    background-color: #f0f0f0;
+    padding: 0px;
+    margin: 10px 0px;
+    text-align:center;
+}
+
+.content-title p {
+    font: aaa;
+}
+
+.content-item p {
+    font-size: 20px;
+}
 
 .footer {
     background-color: #f2f2f2;
