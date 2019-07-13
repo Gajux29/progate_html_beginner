@@ -1,6 +1,8 @@
 body {
+    padding: 0;
     margin: 0;
     background-color: #ffffff;
+    font-family: "SF Pro JP","SF Pro Display","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 li { /* 箇条書きの黒丸削除 */
@@ -17,6 +19,8 @@ h2 {
 
 /* header */
 .header {
+    margin: 0px;
+    padding: 0px;
     background-color: #313131;
     height: 44px;
     text-align:center;
@@ -39,30 +43,46 @@ h2 {
 
 .header-list a {
     color: #ffffff;    
-     text-decoration:none;
+    text-decoration:none;
 }
 
 /* main */
-.content {
-    height: 600px;
+.content {  
     background-color: white;
     color: #000000;   
 }
 
 .content-item {
-    height: 400px;
     background-color: #f0f0f0;
     padding: 0px;
-    margin: 0px 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
     text-align:center;
 }
 
 .content-title p {
     font-size: 30px;
+    padding-top: 50px;
+    text-align: center;   
 }
 
+.content-title a {
+    font-family: "メイリオ","Meiryo";
+    text-align: center;   
+}
+
+.footer-note {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a0a0a0
+}
 
 .footer {
+    padding: 30px 15px;
+    margin-top: 10px;
     background-color: #f2f2f2;
-    color: #000000;
+    color: #a0a0a0;
+}
+
+.footer-logo {
+    padding-top: 10px;
 }
