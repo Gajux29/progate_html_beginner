@@ -8,22 +8,68 @@ li {
     list-style: none;
 }
 
-
-header {
-    padding:15px 30px;
-    height: 35px;    
-    background-color: #000;
+header {    
+    padding: 0 20px;    
+    height: 44px;
+    background-color: #333333;
 }
 
 .header-icon span {
+    padding-top: 15px; 
     padding-right: 30px;    
     color: white;
-    display: inline-block;
     float:left;
 }
 
-.header-list li {
-    padding-right: 50px;    
+.header-list a {
+    padding: 10px 30px;
+    text-decoration: none;    
     color: white;    
     float: left;
+}
+
+.header-list a:hover {
+    background-color: #888888;
+    transition: 0.5s;
+}
+.apple {
+    padding-right: 10px;
+}
+
+.search {
+    float: right;
+}
+.shopping {
+    float: right;
+}
+
+.top-wrapper {
+    padding: 50px 0 52.7px 0;
+    background-color: #fafafa;    
+    text-align:center;
+}
+
+.top-wrapper h1 {    
+    width: 69%;
+    margin: 0 auto;
+    font-size:28px;    
+}
+
+.top-wrapper p {
+    padding:10px 0 10px 0;
+    width: 80%;
+    margin: 0 auto;
+    font-size:21px;    
+}
+
+.top-wrapper a {       
+    text-decoration: none;    
+    color: #0070c9;    
+    margin: 0 auto;
+    font-size:21px;    
+}
+
+.top-wrapper span {
+    margin-bottom:50px;        
+    font-size:20px;
 }
