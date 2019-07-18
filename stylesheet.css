@@ -1,94 +1,29 @@
-body {
+* {
     padding: 0;
     margin: 0;
-    background-color: #ffffff;
     font-family: "SF Pro JP","SF Pro Display","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-li { /* 箇条書きの黒丸削除 */
-  list-style: none;
+li {
+    list-style: none;
 }
 
-h2 {
-    padding:   0px;
-    margin:    0px;
-    font-size:  30px;     
-    color:    #000000;
-    text-align: center;
+
+header {
+    padding:15px 30px;
+    height: 35px;    
+    background-color: #000;
 }
 
-/* header */
-.header {
-    margin: 0px;
-    padding: 0px;
-    background-color: #313131;
-    height: 44px;
-    text-align:center;
-}
-
-.header-home {
-    float: left;
-    padding: 14px 10px 60px 60px;
-}
-
-.header-list {
-    color: #ffffff;
+.header-icon span {
+    padding-right: 30px;    
+    color: white;
+    display: inline-block;
+    float:left;
 }
 
 .header-list li {
-    float: left;
-    padding: 12px 20px;
-}
-
-
-.header-list a {
-    color: #ffffff;    
-    text-decoration:none;
-}
-
-/* main */
-.content {  
-    background-color: white;
-    color: #000000;   
-}
-
-.content-item {
-    background-color: #f0f0f0;
-    padding: 0px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    text-align:center;
-}
-
-.content-title p {
-    font-size: 30px;
-    padding-top: 40px;
-    text-align: center;   
-}
-
-.content-title a {
-    font-family: "メイリオ","Meiryo";
-    text-align: center;   
-}
-
-.footer-note {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #a0a0a0;
-    color: #a0a0a0;
-}
-
-.footer {
-    height: 300px;
-    padding: 30px 15px;
-    margin-top: 10px;
-    background-color: #f2f2f2;
-    color: #000000;
-}
-
-.footer-logo {
-    padding-top: 10px;
-}
-
-.footer-list {
+    padding-right: 50px;    
+    color: white;    
     float: left;
 }
